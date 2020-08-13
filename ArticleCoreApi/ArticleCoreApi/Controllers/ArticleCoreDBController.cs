@@ -33,44 +33,44 @@ namespace ArticleCoreApi.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<TEntity>> Get(int id)
         {
-            var movie = await repository.Get(id);
-            if (movie == null)
+            var article = await repository.Get(id);
+            if (article == null)
             {
                 return NotFound();
             }
-            return movie;
+            return article;
         }
 
         // PUT: api/[controller]/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(int id, TEntity movie)
+        public async Task<IActionResult> Put(int id, TEntity article)
         {
-            if (id != movie.Id)
+            if (id != article.Id)
             {
                 return BadRequest();
             }
-            await repository.Update(movie);
+            await repository.Update(article);
             return NoContent();
         }
 
         // POST: api/[controller]
         [HttpPost]
-        public async Task<ActionResult<TEntity>> Post(TEntity movie)
+        public async Task<ActionResult<TEntity>> Post(TEntity article)
         {
-            await repository.Add(movie);
-            return CreatedAtAction("Get", new { id = movie.Id }, movie);
+            await repository.Add(article);
+            return CreatedAtAction("Get", new { id = article.Id }, article);
         }
 
         // DELETE: api/[controller]/5
         [HttpDelete("{id}")]
         public async Task<ActionResult<TEntity>> Delete(int id)
         {
-            var movie = await repository.Delete(id);
-            if (movie == null)
+            var article = await repository.Delete(id);
+            if (article == null)
             {
                 return NotFound();
             }
-            return movie;
+            return article;
         }
 
     }

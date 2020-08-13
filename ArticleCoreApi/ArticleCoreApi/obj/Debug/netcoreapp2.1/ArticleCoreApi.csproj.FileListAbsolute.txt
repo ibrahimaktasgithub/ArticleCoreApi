@@ -16,3 +16,5 @@ C:\Users\PiktusPC\source\repos\ArticleCoreApi\ArticleCoreApi\ArticleCoreApi\bin\
 C:\Users\PiktusPC\source\repos\ArticleCoreApi\ArticleCoreApi\ArticleCoreApi\obj\Debug\netcoreapp2.1\ArticleCoreApi.csproj.CoreCompileInputs.cache
 C:\Users\PiktusPC\source\repos\ArticleCoreApi\ArticleCoreApi\ArticleCoreApi\obj\Debug\netcoreapp2.1\ArticleCoreApi.dll
 C:\Users\PiktusPC\source\repos\ArticleCoreApi\ArticleCoreApi\ArticleCoreApi\obj\Debug\netcoreapp2.1\ArticleCoreApi.pdb
+C:\Users\PiktusPC\source\repos\ArticleCoreApi\ArticleCoreApi\ArticleCoreApi\bin\Debug\netcoreapp2.1\Properties\serviceDependencies.json
+C:\Users\PiktusPC\source\repos\ArticleCoreApi\ArticleCoreApi\ArticleCoreApi\bin\Debug\netcoreapp2.1\Properties\serviceDependencies.local.json

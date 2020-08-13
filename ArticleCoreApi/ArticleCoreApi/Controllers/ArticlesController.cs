@@ -12,9 +12,9 @@ namespace ArticleCoreApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class MoviesController : ArticleCoreDBController<Article, EfCoreArticleRepository>
+    public class ArticlesController : ArticleCoreDBController<Article, EfCoreArticleRepository>
     {
-        public MoviesController(EfCoreArticleRepository repository) : base(repository)
+        public ArticlesController(EfCoreArticleRepository repository) : base(repository)
         {
 
         }
