@@ -11,7 +11,8 @@
 - Postman API testini ilk defa deneyimledim.
 
 ### Süre bazlı projeye eklemek istediğim,
-Bu API sistemini bir MVC projesi ile entegre olarak çalışmasını sağlamaktır.
+- Bu API sistemini bir MVC projesi ile entegre olarak çalışmasını sağlamak için çalışabilirdim.
+- Makale API içeriğini daha fazla büyütüp daha komple bir proje haline getirmek için çalışabilirdim.
 
 ### Eklemek istediklerim,
 - ORM araçları kullanımında performansın optimum olması suretiyle Repository Pattern'in bu konuda performansı iyileştirici bir yapıda görev yapamayacağı ve SOLID prensiplerine uymadığı kanısındayım. 
